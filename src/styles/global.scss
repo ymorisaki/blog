@@ -267,3 +267,16 @@ and (min-width: 768px) {
     grid-gap: 64px;
   }
 }
+
+// カスタムCSS
+
+.blog-post-content {
+  ul {
+    > li {
+      margin-bottom: 5px;
+      > p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
